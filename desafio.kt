@@ -1,8 +1,6 @@
-// [Template no Kotlin Playground](https://pl.kotl.in/WcteahpyN)
-
 enum class Nivel { BASICO, INTERMEDIARIO, DIFICIL }
 
-class Usuario
+data class Usuario ( val nome: String , val idade: Int , val: nota )
 
 data class ConteudoEducacional(var nome: String, val duracao: Int = 60)
 
